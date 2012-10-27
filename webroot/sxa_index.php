@@ -1,0 +1,12 @@
+<?php
+// テストコントローラ
+require_once("./env.php");
+require_once(SX_ARCDIR."/sxh_action.php");
+
+function main( $sxr_params ){
+ echo "TEST";
+ sxa_operation( "test", "test", &$sxa_params);
+ sxa_view("sxv_index",$sxr_params);
+}
+main( $sxr_params );
+require_once(SX_ARCDIR."/sxf_action.php");
