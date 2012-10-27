@@ -1,9 +1,0 @@
-<?
- define("SX_INDEX","home.php");
- define("SX_DIRX","../simplex");
- define("SX_ARCDIR",SX_DIR."/arc");
- define("SX_FWLIBDIR",SX_DIR."/lib);
- define("SX_LIBDIR","../lib");
- define("SX_MODELDIR","../model");
- 
- require_once(SX_INDEX);
